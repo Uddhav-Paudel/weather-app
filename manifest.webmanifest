@@ -1,0 +1,1 @@
+{"name":"Weather App","short_name":"Weather App","start_url":"/","display":"standalone","background_color":"#FFFFFF","lang":"en","scope":"/","description":"Opensource weather api implementation sample.","theme_color":"#317EFB","icons":[{"src":"/favicon.svg","sizes":"any","type":"image/svg+xml"}]}
