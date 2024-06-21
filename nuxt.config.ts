@@ -1,8 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr:false,
-  bridge: {
-    nitro: false,
+  nitro:{
+    preset:'static'
   },
   devServer: {
     https: {
