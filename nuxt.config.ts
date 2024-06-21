@@ -1,19 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr:true,
-  routeRules: {
-    // Set prerender to true to configure it to be prerendered
-    //"/rss.xml": { prerender: true },
-    // Set it to false to configure it to be skipped for prerendering
-    //"/this-DOES-NOT-get-prerendered": { prerender: false },
-    // Everything under /blog gets prerendered as long as it
-    // is linked to from another page
-    /* "/page/**": { prerender: true },
-    "/composable/**": { prerender: true },
-    "/layout/**": { prerender: true },
-    "/store/**": { prerender: true },
-    "/component/**": { prerender: true }, */
-  },
   devServer: {
     https: {
       key:'./localhost-key.pem',
