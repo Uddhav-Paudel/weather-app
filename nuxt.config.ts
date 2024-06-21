@@ -2,15 +2,11 @@
 export default defineNuxtConfig({
   ssr:false,
   nitro: {
-    hooks: {
-      "prerender:generate"(route) {
-        if (route.route?.includes("200.html")) {
-          route.skip = true;
-        }
-      },
-    },
-  },
-  
+    prerender: {
+      concurrency: 250,
+      interval: 100,
+    }
+  },  
   devServer: {
     https: {
       key:'./localhost-key.pem',
