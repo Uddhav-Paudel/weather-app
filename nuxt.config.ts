@@ -1,12 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  ssr:true,
-  nitro:{
-    prerender:{
-      crawlLinks:false,
-      failOnError: false, 
-    }
-  },
+  ssr:false,
   devServer: {
     https: {
       key:'./localhost-key.pem',
@@ -25,7 +19,6 @@ export default defineNuxtConfig({
     '~/assets/css/main.scss'
   ],
   app:{
-    "baseURL": "/",
     head:{
       title: 'Weather | Forecast',
       link:[
