@@ -64,7 +64,7 @@ jobs:
       - name: Clean 
         run: npm run clean
       - name: Static HTML export with Nuxt
-        run: npm run build
+        run: npm run generate
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
