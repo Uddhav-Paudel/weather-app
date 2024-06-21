@@ -1,6 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr:false,
+  nitro: {
+    prerender: {
+      routes: ['/','/index.html', '/404.html', '/200.html']
+    }
+  },
   devServer: {
     https: {
       key:'./localhost-key.pem',
