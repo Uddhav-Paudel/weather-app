@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "gh-pages -d .output/public"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.7.0",
+    "@pinia/nuxt": "^0.5.1",
+    "@vite-pwa/nuxt": "^0.8.0",
+    "@vueuse/core": "^10.11.0",
+    "@vueuse/nuxt": "^10.11.0",
+    "countries-list": "^3.1.0",
+    "nuxt": "^3.12.2",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3",
+    "vuetify-nuxt-module": "^0.14.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "rimraf": "^5.0.7",
+    "sass": "^1.77.6"
+  }
+}
