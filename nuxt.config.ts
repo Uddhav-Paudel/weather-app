@@ -26,7 +26,7 @@ export default defineNuxtConfig({
     "@vite-pwa/nuxt"
   ],
   css:[
-    '~/assets/css/main.scss'
+    '~/assets/css/main.scss',
   ],
   app:{
     head:{
