@@ -10,7 +10,7 @@ const { tabs } = useSetting();
 				prominent
 				class="position-sticky top-0 z-1 custom-background"
 			>
-				<v-toolbar-title> Weather | Forecast </v-toolbar-title>
+				<v-toolbar-title> Weather | Forecasts </v-toolbar-title>
 				<template #extension>
 					<v-tabs v-model="tabs" grow>
 						<v-tab value="location" :stacked="true" text="Location">
