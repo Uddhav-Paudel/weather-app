@@ -11,6 +11,9 @@
     "postinstall": "nuxt prepare",
     "deploy": "gh-pages -d .output/public"
   },
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@nuxt/image": "^1.7.0",
     "@pinia/nuxt": "^0.5.1",
