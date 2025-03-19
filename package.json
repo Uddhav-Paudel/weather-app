@@ -8,8 +8,7 @@
     "dev": "nuxt dev",
     "generate": "npx nuxi generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "deploy": "gh-pages -d .output/public"
+    "postinstall": "nuxt prepare"
   },
   "engines": {
     "node": ">=18"
