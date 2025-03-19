@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "clean": "rimraf dist",
-    "build": "nuxt build",
+    "build": "npx nuxi generate",
     "dev": "nuxt dev",
     "generate": "npx nuxi generate",
     "preview": "nuxt preview",
