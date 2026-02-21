@@ -7,12 +7,12 @@ export default defineNuxtConfig({
       interval: 100,
     }
   },  
-  devServer: {
+  /* devServer: {
     https: {
       key:'./localhost-key.pem',
       cert:'./localhost.pem'
     },
-  },
+  }, */
   devtools: { enabled: false },
   modules: [
     "@pinia/nuxt",
